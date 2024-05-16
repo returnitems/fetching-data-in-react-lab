@@ -1,0 +1,36 @@
+/* Initial styling */
+
+main {
+  padding: 16px 32px;
+}
+
+section ul {
+  padding: 0;
+  display: grid;
+  grid-gap: 16px;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #333333;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form * {
+  margin-right: 16px;
+}
+
+input,
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(160, 160, 160);
+}

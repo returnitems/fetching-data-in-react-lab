@@ -1,5 +1,6 @@
-import * as starshipService from './services/starshipService'
-import StarshipList from './components/StarshipList'
+import * as starshipService from './services/starshipService.js'
+import StarshipList from './components/StarshipList.jsx'
+// import './App.css'
 
 
 const App = () => {

@@ -8,6 +8,7 @@ const StarshipList = ({starshipService}) => {
             const list = await starshipService.shipList();
             setShips(list);
         };
+
         fetchData();
         
     }, []);
@@ -17,8 +18,17 @@ const StarshipList = ({starshipService}) => {
     return (
         <>
         <h1>List of all Starships</h1>
-        <ol>
-        </ol>
+        <p>Number of Starships: {ships.length}</p>
+        <ul>
+            {ships.map((ship, index) => (
+                <li key={index}>
+                    Name: {ship.name} <br />
+                    Class: {ship.starship_class} <br />
+                    Manufacturer: {ship.manufacturer} <br />
+                    Model: {ship.model}
+                </li>
+            ))}
+        </ul>
         </>
     )
 }
