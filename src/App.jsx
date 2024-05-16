@@ -1,9 +1,12 @@
-
+import * as starshipService from './services/starshipService'
+import StarshipList from './components/StarshipList'
 
 
 const App = () => {
   return (
-    <h1>Hello world!</h1>
+    <>
+      <StarshipList starshipService={starshipService} />
+    </>
   );
 }
 
