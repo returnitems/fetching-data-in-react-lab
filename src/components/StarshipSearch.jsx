@@ -1,7 +1,7 @@
-import { useState } from "react"
+// import { useState } from "react"
 
-const StarshipSearch = ({starshipService}) => {
-    const [ship, setShip] = useState('');
+const StarshipSearch = () => {
+    // const [ship, setShip] = useState('');
 
 
 
