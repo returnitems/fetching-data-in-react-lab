@@ -17,7 +17,7 @@ const StarshipList = ({starshipService}) => {
 
     return (
         <>
-        <h1>List of all Starships</h1>
+        <h2>List of all Starships</h2>
         <p>Number of Starships: {ships.length}</p>
         <ul>
             {ships.map((ship, index) => (
@@ -31,6 +31,6 @@ const StarshipList = ({starshipService}) => {
         </ul>
         </>
     )
-}
+};
 
 export default StarshipList;
