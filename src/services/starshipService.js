@@ -24,11 +24,12 @@ const shipList = async () => {
 };
 
 const showShip = async (shipName) => {
+
     try {
         const queryString = `?search=${shipName}`
         const res = await fetch(BASE_URL + queryString)
         const data = await res.json();
-        return data
+        return data;
     } catch (err) {
         console.log(err);
     }
