@@ -14,7 +14,7 @@ const StarshipSearch = ({starshipService}) => {
 
     return (
         <section>
-            <h1>Search</h1>
+            <h2>Search</h2>
             <form onSubmit={shipSearch}>
                 <label htmlFor="shipName">Enter name of ship: </label>
                 <input 

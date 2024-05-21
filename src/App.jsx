@@ -1,7 +1,7 @@
 import * as starshipService from './services/starshipService.js'
 import StarshipList from './components/StarshipList.jsx'
 import StarshipSearch from './components/StarshipSearch.jsx';
-// import './App.css'
+import './App.css'
 
 
 const App = () => {

@@ -22,10 +22,10 @@ const StarshipList = ({starshipService}) => {
         <ul>
             {ships.map((ship, index) => (
                 <li key={index}>
-                    Name: {ship.name} <br />
-                    Class: {ship.starship_class} <br />
-                    Manufacturer: {ship.manufacturer} <br />
-                    Model: {ship.model}
+                    Name: <span>{ship.name}</span> <br />
+                    Class: <span>{ship.starship_class}</span> <br />
+                    Manufacturer: <span>{ship.manufacturer}</span> <br />
+                    Model: <span>{ship.model}</span>
                 </li>
             ))}
         </ul>
